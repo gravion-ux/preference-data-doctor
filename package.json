@@ -1,0 +1,31 @@
+{
+  "name": "preference-data-doctor",
+  "version": "0.1.0",
+  "description": "Diagnoses and repairs the preference datasets that personalise LLM systems: duplicates, contradictions, class imbalance, format drift, and leaked secrets or personal data.",
+  "license": "MIT",
+  "author": "gravion-ux",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": {
+    "preference-doctor": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/cli.test.js test/findings.test.js test/loader.test.js test/redact.test.js test/repair.test.js test/report.test.js test/rules.test.js test/scanner.test.js test/schema.test.js",
+    "check": "node --check src/index.js && node --check src/cli.js && node --check src/loader.js && node --check src/schema.js && node --check src/rules.js && node --check src/scanner.js && node --check src/findings.js && node --check src/report.js && node --check src/redact.js && node --check src/repair.js",
+    "audit": "node src/cli.js audit ."
+  },
+  "keywords": [
+    "llm",
+    "preference",
+    "dataset",
+    "data-quality",
+    "few-shot",
+    "pii",
+    "privacy"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
