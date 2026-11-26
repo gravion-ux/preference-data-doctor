@@ -1,9 +1,10 @@
+<p align="center"><img src="assets/banner.svg" alt="preference-data-doctor banner" width="100%"/></p>
+
 # Preference Data Doctor
 
-[![CI](https://github.com/gravion-ux/preference-data-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/gravion-ux/preference-data-doctor/actions/workflows/ci.yml)
+[![CI](https://github.com/gravion-ux/preference-data-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/gravion-ux/preference-data-doctor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Preference Data Doctor diagnoses — and repairs — the preference datasets that personalise
-LLM systems: few-shot examples, preference pairs, and user profile records.
+**Preference Data Doctor diagnoses — and repairs — the preference datasets that personalise LLM systems: few-shot examples, preference pairs, and user profile records.**
 
 ## Why it matters
 
